@@ -200,7 +200,6 @@ class ESG(Tk):
                     if isinstance(w, ttk.Label):
                         w.config(foreground="white")
                         messagebox.showwarning("...", "https://pastebin.com/fYdQ5akK")
-                
                 self.caption_raw = "te vejo lá ;)"
                 self.set_caption("", 0)
                 self.update_idletasks()
