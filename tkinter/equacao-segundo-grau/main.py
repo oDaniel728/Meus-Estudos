@@ -1,11 +1,13 @@
 from math import sqrt
-import sys
+import os
 import time
 from tkinter import *
 from tkinter import messagebox
 from typing import Literal, Tuple
 import tkinter.ttk as ttk
 from threading import Thread
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 class V:
     T = TINY = DESC = 0
